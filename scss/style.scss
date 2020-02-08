@@ -1,31 +1,28 @@
 
-@mixin header{
+.top-img-button{
+  display: flex;
+}
+
  .top{
   margin-top: 11px;
   margin-left: 88px;
   width: 62px;
   height: 37px;
  }
- ul{
+ .top1{
    list-style: none;
+   display:flex;
+   justify-content: flex-end;
+   list-style: none;
+   margin-left: auto;
  }
+
  li{
-   display: inline-block;
    font-size: 16px;
    color: #FFFFFF;
  }
-}
 
-@mixin footer{
-  ul{
-    list-style: none;
-  }
-    li{
-      display: inline-block;
-      font-size: 18px;
-      color: #FFFFFF;
-    }
-}
+
 
 .home-baner{
   margin-left: 0px;
