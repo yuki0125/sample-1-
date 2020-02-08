@@ -1,0 +1,35 @@
+
+@mixin header{
+ .top{
+  margin-top: 11px;
+  margin-left: 88px;
+  width: 62px;
+  height: 37px;
+ }
+ ul{
+   list-style: none;
+ }
+ li{
+   display: inline-block;
+   font-size: 16px;
+   color: #FFFFFF;
+ }
+}
+
+@mixin footer{
+  ul{
+    list-style: none;
+  }
+  li{
+    display: inline-block;
+    font-size: 18px;
+    color: #FFFFFF;
+  }
+}
+
+.home-baner{
+  margin-left: 0px;
+  width: auto;
+  height: 741px;
+  background: transparent url('img/AdobeStock_199226712.png') 0% 0% no-repeat padding-box;
+}
