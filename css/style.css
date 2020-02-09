@@ -12,14 +12,28 @@
   display: flex;
   justify-content: flex-end;
   list-style: none;
-  margin-left: auto; }
+  margin-left: auto;
+  color: #272727; }
 
 li {
-  font-size: 16px;
-  color: #FFFFFF; }
+  font-size: 16px; }
+
+.home-baners {
+  position: relative;
+  padding: 0; }
 
 .home-baner {
   margin-left: 0px;
   width: auto;
   height: 741px;
   background: transparent url("img/AdobeStock_199226712.png") 0% 0% no-repeat padding-box; }
+
+.home-p {
+  position: absolute;
+  top: 324px;
+  left: 0px;
+  background: #FFFFFF 0% 0% no-repeat padding-box;
+  opacity: 0.8;
+  font-size: 60px;
+  color: #918F89;
+  padding: 30px 60px 23px 88px; }
