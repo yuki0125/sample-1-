@@ -22,13 +22,12 @@
    font-size: 16px;
  }
 
- .home-baners{
+ .home-banners{
    position:relative;
    padding: 0;
  }
- .home-baner{
-   margin-left: 0px;
-   width: auto;
+ .home-banner{
+   width: 100%;
    height: 741px;
    background: transparent url('img/AdobeStock_199226712.png') 0% 0% no-repeat padding-box;
  }
@@ -43,3 +42,27 @@
    color: #918F89;
    padding:30px 60px 23px 88px;
  }
+
+.home1{
+  margin-top: 142px;
+  margin-left: 88px;
+  margin-right: 70px;
+  height: 500px;
+  width: 544px;
+  float: left;
+}
+.home1-title{
+  margin-top: 343px;
+  margin-left: 702px;
+  height: 29px;
+  width: 474px;
+  font-size: 25px;
+  letter-spacing: 2.5px;
+  color: #3B3B3B;
+  opacity: 1;
+}
+.home1-p{
+  margin-top: 40px;
+  font-size: 12px;
+  letter-spacing: 0.36px;
+}
