@@ -1,4 +1,3 @@
-@charset "UTF-8";
 .top-img-button {
   display: flex; }
 
@@ -32,7 +31,7 @@ li {
   width: 100%;
   height: 741px;
   background-repeat: no-repeat;
-  background: transparent url("img/AdobeStock_199226712.png") 0% 0% no-repeat padding-box; }
+  background: url("img/home-banner.jpg") 0% 0% no-repeat padding-box; }
 
 .home-p {
   position: absolute;
@@ -44,44 +43,75 @@ li {
   color: #918F89;
   padding: 30px 60px 23px 88px; }
 
-.home1title {
-  margin-top: 143px; }
-
 .home1 {
-  margin-left: 88px;
+  margin-top: 142px;
   margin-right: 70px;
+  margin-left: 88px;
   height: 500px;
   width: 544px;
-  float: left; }
+  float: left;
+  background: url("img/home1.png"); }
 
 .home1-title {
   margin-top: 343px;
-  margin-left: 702px;
-  height: 29px;
-  width: 474px;
-  font-size: 25px;
-  color: #3B3B3B;
-  opacity: 1;
-  letter-spacing: 2.5px; }
+  font-size: 25px; }
 
 .home1-p {
   margin-top: 40px;
   font-size: 12px;
+  letter-spacing: 0.36px;
+  font: Regular 12px/30px Noto Sans;
   letter-spacing: 0.36px; }
 
 .home2-title {
   margin-top: 292px;
-  　text-align: center;
+  margin-right: 543px;
+  margin-left: 543px;
+  height: 29px;
+  width: 194px;
   font-size: 25px;
   color: #3B3B3B;
   opacity: 1;
   letter-spacing: 2.5px; }
 
 .home2 {
-  text-align: center;
-  background: transparent url("img/AdobeStock_279823582.png") 0% 0% no-repeat padding-box;
+  background-repeat: no-repeat;
+  background: transparent url("img/home2.png");
   margin-top: 50px;
   margin-left: 158px;
   margin-right: 158px;
-  width: 964px;
-  height: 503px; }
+  height: 503px;
+  width: 964px; }
+
+.news-title {
+  margin-top: 246px;
+  font-size: 25px;
+  color: #3B3B3B;
+  opacity: 1;
+  letter-spacing: 2.5px;
+  text-align: center; }
+
+.home3-5 {
+  display: flex;
+  justify-content: space-around;
+  align-items: center; }
+
+.view-title {
+  font-size: 21px;
+  margin-top: 39px;
+  display: block;
+  text-align: center; }
+
+.contact-title {
+  margin-top: 221px;
+  display: block;
+  text-align: center;
+  font-size: 25px; }
+
+.contact-form {
+  margin-top: 60px;
+  text-align: center; }
+
+.yourname {
+  text-align: center;
+  width: 463px; }
