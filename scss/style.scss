@@ -5,6 +5,8 @@
   letter-spacing: 2.5px;
 }
 
+
+// ヘッダーとフッター
 .top-img-button{
   display: flex;
 }
@@ -42,6 +44,23 @@
   color: #272727;
 }
 
+
+
+.footer-about-button{
+  font-size: 18px;
+  color: #FFFFFF;
+}
+.footer-news-button{
+  font-size: 18px;
+  color: #FFFFFF;
+}
+.footer-qa-button{
+  font-size: 18px;
+  color: #FFFFFF;
+}
+
+
+// indexページのデザイン
 
  .home-banners{
    position:relative;
@@ -201,16 +220,31 @@ li{
 a{
   text-decoration:none;
 }
-.footer-about-button{
-  font-size: 18px;
-  color: #FFFFFF;
+
+
+
+// NEWSページのデザイン
+.news-banners{
+  display: flex;
+  position:relative;
 }
-.footer-news-button{
-  font-size: 18px;
-  color: #FFFFFF;
+.news-banner{
+  width: 100%;
+  height: 415px;
+  background-repeat: no-repeat;
+  background: url('img/banner2.png');
+}
+.news-p{
+  position: absolute;
+  opacity: 1;
+  font-size: 30px;
+  font-family: 'Noto Sans';
+  color: #918F89;
+  padding:179px 956px 207px 228px;
 }
 
-.footer-qa-button{
-  font-size: 18px;
-  color: #FFFFFF;
+.news-title{
+  text-align: center;
+  font-size: 21px;
+  margin-top: 86px;
 }
