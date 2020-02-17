@@ -101,7 +101,7 @@ li {
   height: 503px;
   width: 964px; }
 
-.news-title {
+.newstitle {
   margin-top: 246px;
   font-size: 25px;
   color: #3B3B3B;
@@ -112,7 +112,8 @@ li {
 .home3-5 {
   display: flex;
   justify-content: space-around;
-  align-items: center; }
+  align-items: center;
+  width: 100%; }
 
 .view-title {
   font-size: 21px;
@@ -165,8 +166,9 @@ li {
   opacity: 0.6;
   color: #FFFFFF;
   background-color: #707070 .button; }
-  .button :active {
-    background-color: #707070 0% 0% no-repeat; }
+  .button :hover {
+    color: #918F89;
+    background: #A5A5A5; }
 
 .footers {
   width: 100%;

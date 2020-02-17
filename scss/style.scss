@@ -122,7 +122,7 @@
   width: 964px;
 }
 
-.news-title{
+.newstitle{
   margin-top: 246px;
   @include title-style;
   text-align: center;
@@ -132,6 +132,7 @@
   display: flex;
   justify-content: space-around;
   align-items: center;
+  width: 100%;
 }
 
 .view-title{
@@ -189,10 +190,10 @@
   opacity: 0.6;
   color: #FFFFFF;
   background-color: #707070
-  &:active{
-    background-color: #707070 0% 0% no-repeat;
-  }
+  &:hover{color: #918F89; background: #A5A5A5;}
 }
+
+
 
 .footers{
   width: 100%;
