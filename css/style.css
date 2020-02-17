@@ -112,8 +112,18 @@ li {
 .home3-5 {
   display: flex;
   justify-content: space-around;
-  align-items: center;
-  width: 100%; }
+  align-items: center; }
+
+.home3 {
+  width: 30%;
+  margin: 2% 2% 2% 3%; }
+
+.home4 {
+  width: 30%; }
+
+.home5 {
+  width: 30%;
+  margin: 2% 3% 2% 2%; }
 
 .view-title {
   font-size: 21px;
@@ -159,16 +169,17 @@ li {
 
 .button {
   display: block;
+  border-radius: 20px;
   width: 111px;
   height: 35px;
   margin: auto;
   margin-top: 68px;
-  opacity: 0.6;
   color: #FFFFFF;
-  background-color: #707070 .button; }
-  .button :hover {
-    color: #918F89;
-    background: #A5A5A5; }
+  background-color: #707070; }
+  .button:hover {
+    transition: .3s;
+    opacity: 0.6;
+    color: white; }
 
 .footers {
   width: 100%;
@@ -211,9 +222,11 @@ a {
   font-size: 30px;
   font-family: 'Noto Sans';
   color: #918F89;
-  padding: 179px 956px 207px 228px; }
+  padding-top: 179px;
+  padding-left: 228px; }
 
 .news-title {
   text-align: center;
   font-size: 21px;
-  margin-top: 86px; }
+  margin-top: 86px;
+  margin-bottom: 80px; }
