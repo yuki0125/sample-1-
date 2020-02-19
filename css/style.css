@@ -271,9 +271,12 @@ a {
   font-size: 0.8em;
   color: rgba(0, 0, 0, 0.2); }
 
-summary::-webkit-details-marker {
-  color: transparent;
-  background: url(img/icon.svg) no-repeat center; }
+.icon ::before {
+  content: '\f078';
+  background: url(img/icon-down.svg);
+  font-weight: 900;
+  font-family: "Font Awesome 5 Free";
+  display: none; }
 
 .qa-p {
   font-size: 12px; }
