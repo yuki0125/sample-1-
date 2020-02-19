@@ -306,16 +306,22 @@ a{
 .qa{
   font-size: 16px;
 }
+
 .icon{
-  font-size: 0.8em;
-  color: rgba(0, 0, 0, 0.2);
+  padding-left: 187px;
+  color: #00000034;
 }
 .icon ::before{
   content: '\f078';
   background: url(img/icon-down.svg);
-  font-weight: 900;
-  font-family: "Font Awesome 5 Free";
-  display: none;
+  font-size: 16px;
+}
+.icon ::after{
+  transform:rotateY(-180deg);
+  transition: 1s;
+}
+summary::-webkit-details-marker{
+  display:none;
 }
 
 .qa-p{
