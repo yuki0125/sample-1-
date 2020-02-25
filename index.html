@@ -4,6 +4,9 @@
   <meta charset="UTF-8">
   <link rel="stylesheet" href="css/normal.css">
   <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="flexslider.css" type="text/css">
+  <script type="text/javascript" src="http://code.jquery.com/jquery-3.1.0.min.js"></script>
+　<script src="js/slick.js" type="text/javascript"></script>
   <title>サンプルサイト１</title>
 </head>
 
@@ -39,13 +42,45 @@
 
 
   <p class="home2-title">豊富なスタイル</p>
-  <img class="home2" src="img/home2.png">
+
+  <div class="slider">
+    <div class="single-item">
+      <div>
+        <img src="img/slide01.png" alt="image1" class="slider__img">
+      </div>
+      <div>
+        <img src="img/slide02.png" alt="image2" class="slider__img">
+      </div>
+      <div>
+        <img src="img/slide03.png" alt="image3" class="slider__img">
+      </div>
+    </div>
+  </div>
+
+
 
   <h1 class="newstitle">NEWS</h1>
   <div class="home3-5">
-   <img class="home3" src="img/home3.png">
-   <img class="home4" src="img/home4.png">
-   <img class="home5" src="img/home5.png">
+    <figure>
+      <img class="home" src="img/home3.png">
+      <figcaption>
+        <p>アームストロングのカウチ入荷</p>
+      </figcaption>
+    </figure>
+
+    <figure>
+      <img class="home" src="img/home4.png">
+      <figcaption>
+        <p>アームストロングのチェア再入荷</p>
+      </figcaption>
+    </figure>
+
+    <figure>
+      <img class="home" src="img/home5.png">
+      <figcaption>
+        <p>アームストロングのテーブル入荷</p>
+      </figcaption>
+    </figure>
  </div>
 
   <p class="view-title">view more</p>
