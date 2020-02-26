@@ -112,21 +112,22 @@
   @include title-style;
 }
 
+// スライダーの設定
 
-.container {
-  margin: 0 auto;
-  padding: 40px;
-  width: 80%;
-  
+.slider{
+  display: flex;
+  overflow-x: auto;
+  margin: auto;
+  width: 964px;
+  margin: 50px 158px;
 }
-
-.slick-slide {
+.slide {
+  flex-shrink: 0;
+  height: auto;
+}
+.slide-wrap{
   text-align: center;
-  color: #419be0;
-  background: white;
 }
-
-
 
 
 

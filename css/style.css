@@ -91,15 +91,19 @@ li {
   opacity: 1;
   letter-spacing: 2.5px; }
 
-.container {
-  margin: 0 auto;
-  padding: 40px;
-  width: 80%; }
+.slider {
+  display: flex;
+  overflow-x: auto;
+  margin: auto;
+  width: 964px; }
 
-.slick-slide {
-  text-align: center;
-  color: #419be0;
-  background: white; }
+.slide {
+  flex-shrink: 0;
+  height: auto;
+  margin: 50px 158px; }
+
+.slide-wrap {
+  text-align: center; }
 
 .newstitle {
   margin-top: 246px;
