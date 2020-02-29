@@ -27,6 +27,9 @@ li {
 .header-about-button {
   color: #272727; }
 
+a::after {
+  text-decoration: #272727; }
+
 .header-news-button {
   color: #272727; }
 
@@ -95,15 +98,16 @@ li {
   display: flex;
   overflow-x: auto;
   margin: auto;
-  width: 964px; }
+  width: 964px;
+  margin: auto; }
 
 .slide {
   flex-shrink: 0;
-  height: auto;
-  margin: 50px 158px; }
+  height: auto; }
 
 .slide-wrap {
-  text-align: center; }
+  text-align: center;
+  margin-top: 30px; }
 
 .newstitle {
   margin-top: 246px;
@@ -298,6 +302,9 @@ a {
 .icon ::after {
   transform: rotateY(-180deg);
   transition: 1s; }
+
+.icon:active {
+  transform: rotate(180deg); }
 
 summary::-webkit-details-marker {
   display: none; }

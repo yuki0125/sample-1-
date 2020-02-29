@@ -37,7 +37,11 @@
  }
  .header-about-button{
    color: #272727;
- }
+}
+a::after {
+   text-decoration:#272727;
+}
+
 .header-news-button{
   color: #272727;
 }
@@ -119,7 +123,7 @@
   overflow-x: auto;
   margin: auto;
   width: 964px;
-  margin: 50px 158px;
+  margin: auto;
 }
 .slide {
   flex-shrink: 0;
@@ -127,6 +131,7 @@
 }
 .slide-wrap{
   text-align: center;
+  margin-top: 30px;
 }
 
 
@@ -350,6 +355,10 @@ a{
   transform:rotateY(-180deg);
   transition: 1s;
 }
+.icon:active{
+  transform: rotate(180deg);
+}
+
 summary::-webkit-details-marker{
   display:none;
 }
