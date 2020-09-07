@@ -1,6 +1,13 @@
+$(function(){
+  $('header-about-button').click(function(){
+    $(''#TAB2').slideUp(slow);
+  });
 
+});
+
+
+// 押して離すまでアイコンが反転する
 $(function() {
-  // 「#hide-text」要素に対するclickイベントを作成してください
   $('qa').click(function() {
     $('i')transform: rotate(180deg);
   });
